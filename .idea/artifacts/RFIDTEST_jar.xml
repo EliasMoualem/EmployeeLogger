@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RFIDTEST:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RFIDTEST_jar</output-path>
+    <root id="archive" name="RFIDTEST.jar">
+      <element id="module-output" name="RFIDTEST" />
+      <element id="extracted-dir" path="D:/Downloads D/jSerialComm-2.5.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Downloads D/postgresql-42.2.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
