@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RFIDTEST.iml" filepath="$PROJECT_DIR$/RFIDTEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeLogger.iml" filepath="$PROJECT_DIR$/EmployeeLogger.iml" />
     </modules>
   </component>
 </project>

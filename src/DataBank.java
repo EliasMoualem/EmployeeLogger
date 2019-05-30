@@ -47,15 +47,22 @@ public class DataBank {
         }
     }
 
+    private void printUserName(ResultSet rs) throws SQLException {
+        while (rs.next()) {
+            System.out.println(rs.getString("UserName") + "\t");
+
+        }
+    }
+
     public void findUserByID(String UID) {
-        String SQL = "SELECT RFIDUsers.UserName FROM \"RFIDUsers\" WHERE UID = ?";
+        String SQL = "SELECT \"UserName\" FROM \"RFIDUsers\" WHERE \"UID\" = ?";
 
         try (Connection conn = connect();
              PreparedStatement pstmt = conn.prepareStatement(SQL)) {
 
             pstmt.setString(1, UID);
             ResultSet rs = pstmt.executeQuery();
-            printColumns(rs);
+            printUserName(rs);
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
         }

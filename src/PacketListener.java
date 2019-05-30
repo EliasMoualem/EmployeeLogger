@@ -37,7 +37,6 @@ public class PacketListener implements SerialPortPacketListener{
             System.out.println("Received data: " + str);
             GUI.tf.setText(str);
         }
-
         db.findUserByID(str);
     }
 }
