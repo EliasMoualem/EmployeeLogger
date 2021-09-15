@@ -1,8 +1,7 @@
 <component name="libraryTable">
   <library name="jSerialComm-2.5.1">
     <CLASSES>
-      <root url="jar://D:/Downloads D/jSerialComm-2.5.1.jar!/" />
-      <root url="jar://D:/Downloads D/postgresql-42.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../jSerialComm-2.7.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

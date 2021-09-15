@@ -7,12 +7,11 @@ public class GUI extends JFrame {
     private JPanel panel;
     static JTextField tf;
 
-
     public GUI(){
 
-        JFrame calc = new JFrame("GUI");
-        calc.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        calc.setResizable(false);
+        JFrame UIFrame = new JFrame("GUI");
+        UIFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        UIFrame.setResizable(false);
 
         //the Panel
         panel = new JPanel();
@@ -27,8 +26,8 @@ public class GUI extends JFrame {
 
         panel.add(tf);
 
-        calc.add(panel);
-        calc.setSize(290,500);
-        calc.setVisible(true);
+        UIFrame.add(panel);
+        UIFrame.setSize(290,500);
+        UIFrame.setVisible(true);
     }
 }

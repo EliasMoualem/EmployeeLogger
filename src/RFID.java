@@ -37,6 +37,6 @@ public class RFID {
         GUI gui = new GUI();
         comPortConnection();
         //DB db = new DB();
-        //DataBank db = new DataBank();
+        DataBank db = new DataBank();
     }
 }
