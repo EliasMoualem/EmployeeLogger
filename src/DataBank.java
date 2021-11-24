@@ -47,7 +47,7 @@ public class DataBank {
 
     private void printUserName(ResultSet rs) throws SQLException {
         while (rs.next()) {
-            System.out.println(rs.getString("Name") + "\t");
+            System.out.println("User Name is: " + rs.getString("Name") + "\t");
         }
     }
 
